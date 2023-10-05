@@ -1,0 +1,37 @@
+/* 1 - Le Caractère d'espacement en CSS */
+div p {
+    color: red;
+}
+
+/* 2 - Appliquer un caractère d'espacement hiérarchique */
+
+div div p {
+    color:  green;
+}
+
+
+div div:nth-child(5n) p{
+    color: maroon;
+    font-size: 3rem;
+}
+
+/* 3 - Cibler un élément suivant un autre élément */
+
+div + p {
+    color: gray;
+    font-size: 1.5rem;
+
+}
+
+/* 4 - Cibler un ou les enfants direct */
+
+article > p, h4 {
+    color: blue;
+}
+
+/* 5 - Cibler des éléments suivant un autre élément*/
+
+/* div ~ p {
+    color: bisque;
+} */
+
